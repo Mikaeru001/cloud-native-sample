@@ -15,6 +15,6 @@ app.get('/', function(req, res) {
   `);
 });
 
-app.listen(80, function () {
+app.listen(80, '0.0.0.0', function () {
   console.log('Example app listening on port 80');
 });
